@@ -1,0 +1,322 @@
+Script started on 2023-15-01 03:30:27-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ #create brand new folder structure under /EmployeeD ata
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ if [ ! -d "/EmployeeData" ]
+[?2004l[?2004h> then
+[?2004l[?2004h> mkdir /EmployeeData
+[?2004l[?2004h> fi
+[?2004lmkdir: cannot create directory ‘/EmployeeData’: Permission denied
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ if [ ! -d "/EmployeeData" ]; then mkdir /EmployeeData; fi[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csmkdir /EmployeeDa[1@t[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cumkdir /EmployeeD[1@a[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdmkdir /Employee[1@D[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Comkdir /Employe[1@e[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mkdir /Employ[C[1@e[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[sudo] password for fikayo: 
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ # cre[K[K[K[Kcreate subfolder under /EmployeeDs[Kata
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ mkdir/EmployeeData/HR /EmployeeData/HR
+[?2004lmkdir: cannot create directory ‘/EmployeeData/HR’: Permission denied
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ mkdir /EmployeeData/HR[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/HR[K[KIT
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/IT[K[KFinance
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/Finance[K[K[K[K[K[K[KExecutive
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/Executive[K[K[K[K[K[K[K[K[KAdministrative
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/Administrative[K[K[K[K[K[K[K[K[K[K[K[K[K[KCall\ Centre
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ echo "Folder structure created successfully."
+[?2004lFolder structure created successfully.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ $[K#set permissions for the folders[1Pfolders[1Pfolders[1Pfolders[1Pfolders[1Pfolders folders[C[C[C[C[C[C
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chmod -R u+rwx, g+rw,[1Pg+rw,[C[C[C[C[C[K,o+r /EmployeeData/Administrativ e
+[?2004lchmod: changing permissions of '/EmployeeData/Administrative': Operation not permitted
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cschmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [Cuchmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [C[Cdchmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [C[C[Cochmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C
+
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[KCall\ Ce ntre
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo[K[K[K[Ksudo chmod -R u+rwx,g+rw,o+r /EmployeeData/Call\ Centre[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kata/Administrative[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[KFinance
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/Finance[K[K[K[K[K[K[KIT
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/IT[K[KExecutiv e
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/Executive[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[KHR[1P /EmployeeData/HR[1P /EmployeeData/HR= /EmployeeData/HR
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ ECH[K[K[Kecho "Folder structure created successfully."
+[?2004lFolder structure created successfully.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chgrp[K[K[K[K[K# [Keach folder[K[K[K[K[K[K[K[K[K[K[Kassign each [K folder to it's associated department g roup
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chgrp -R HR /EmployeeData/HR
+[?2004lchgrp: invalid group: ‘HR’
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ cut -d: -fi /etc/group
+[?2004lcut: invalid field value ‘i’
+Try 'cut --help' for more information.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshio-VirtualBox[00m:[01;34m~[00m$ cut -d: -fi /etc/grouphgrp -R HR /EmployeeData/HR#assign each folder to it's associated department group[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [23Pchgrp -R HR /EmployeeData/HR
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[1@u[1@d[1@o[1@ 
+[?2004lchgrp: invalid group: ‘HR’
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshio-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -fi /etc/grouphgrp -R HR /EmployeeData/HR[K[KIT[1P /EmployeeData/IT[1P /EmployeeData/ITI /EmployeeData/ITT /EmployeeData/IT
+[?2004lchgrp: invalid group: ‘IT’
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chgrp -R IT /EmployeeData/ITsudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -fi /etc/group[1P /etc/group1 /etc/group
+[?2004lroot
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+gnats
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+systemd-resolve
+crontab
+messagebus
+systemd-timesync
+input
+sgx
+kvm
+render
+syslog
+tss
+bluetooth
+ssl-cert
+uuidd
+systemd-oom
+tcpdump
+_ssh
+avahi-autoipd
+netdev
+avahi
+lpadmin
+rtkit
+whoopsie
+sssd
+nm-openvpn
+scanner
+saned
+colord
+geoclue
+pulse
+pulse-access
+gdm
+lxd
+fikayo
+sambashare
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ si[Kudo groupadd I[KHR
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd HR[K[KIT
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd IT[K[KFinance
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Finance[K[K[K[K[K[K[KExecutive
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Executive[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KAdministrative[CgAdministrativerAdministrativeoAdministrativeuAdministrativepAdministrativeaAdministrativedAdministrativedAdministrative Administrative
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Administrative[K[K[K[K[K[K[K[K[K[K[K[K[K[KCaa[Kll\ Centre
+[?2004lgroupadd: 'Call Centre' is not a valid group name
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Call\ Centre[1PCentre[1PCentre Centre
+[?2004lUsage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+      --extrausers              Use the extra users database
+
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/group
+[?2004lroot
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+gnats
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+systemd-resolve
+crontab
+messagebus
+systemd-timesync
+input
+sgx
+kvm
+render
+syslog
+tss
+bluetooth
+ssl-cert
+uuidd
+systemd-oom
+tcpdump
+_ssh
+avahi-autoipd
+netdev
+avahi
+lpadmin
+rtkit
+whoopsie
+sssd
+nm-openvpn
+scanner
+saned
+colord
+geoclue
+pulse
+pulse-access
+gdm
+lxd
+fikayo
+sambashare
+HR
+IT
+Finance
+Executive
+Administrative
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ cut -d: -f1 /etc/groupsudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/grouphgrp -R IT /EmployeeData/ITsudo chgrp -R HR /EmployeeData/HR
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -f1 /etc/groupsudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/grouphgrp -R IT /EmployeeData/IT[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R IT /EmployeeData/IT[1P /EmployeeData/IT[1P /EmployeeData/ITF /EmployeeData/ITi /EmployeeData/ITn /EmployeeData/ITa /EmployeeData/ITn /EmployeeData/ITc /EmployeeData/ITe /EmployeeData/IT[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PT[C[KFinance
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R Finance /EmployeeData/Finance[K[K[K[K[K[K[KExecutive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/ExecutiveE/EmployeeData/Executivex/EmployeeData/Executivee/EmployeeData/Executivec/EmployeeData/Executiveu/EmployeeData/Executivet/EmployeeData/Executivei/EmployeeData/Executivev/EmployeeData/Executiver/EmployeeData/Executivee/EmployeeData/Executive[1P/EmployeeData/Executive[1P/EmployeeData/Executivee/EmployeeData/Executive /EmployeeData/Executive[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R Executive /EmployeeData/Executive[K[K[K[K[K[K[K[K[KAdministrativ e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /EmployeeData/Administrative [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /EmployeeData/Administrative
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /EmployeeData/Administrative[1P /EmployeeData/Administrative[1P /EmployeeData/Administrative[1P /EmployeeData/Administrative[1P /EmployeeData/Administrative[1P /EmployeeData/Administrative[1P /EmployeeData/AdministrativeA /EmployeeData/Administratived /EmployeeData/Administrativem /EmployeeData/Administrativei /EmployeeData/Administrativen /EmployeeData/Administrativei /EmployeeData/Administratives /EmployeeData/Administrativet /EmployeeData/Administrative [A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HR[C[1@:
+[?2004lchgrp: invalid group: ‘:HR’
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R :HR /EmployeeData/HR[C[1P[1P[1P[1P[1P[1@c[1@h[1@o[1@w[1@n
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chown -R :HR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/IT[C[1@:[1P[1P[1P[1P[1@h[1@o[1@w[1@n
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chown -R :IT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[1@:[1P[1P[1P[1@o[1@w[1@n
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chown -R :Finance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@:[1P[1P[1P[1@o[1@w[1@n
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chown -R :Executive /EmployeeData/Executive[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -R :Administrative /EmployeeData/Administr[1Pative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C -R :Administrative /EmployeeData/Administra[1Ptive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C -R :Administrative /EmployeeData/Administrat[1Pive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[Co -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[Cw -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[Cn -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chown -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -f1 /etc/groupsudo groupadd Call Centre[1@\[1P[C\ Centre
+[?2004lgroupadd: 'Call Centre' is not a valid group name
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Call\ Centre[1P[1P[1@1[1@1
+[?2004lgroupadd: 'Ca11 Centre' is not a valid group name
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Ca11\ Centre[1PCentre[1PCentre
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd Ca11Centre[1PCentre[1PCentrelCentrelCentre
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo groupadd CallCentre11Centre\ Centrell[C[C[C[C[C[C[C[Cchown -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[KCallCentre[1P /EmployeeData/CallCentre[1P /EmployeeData/CallCentre[1P /EmployeeData/CallCentreC /EmployeeData/CallCentrea /EmployeeData/CallCentrel /EmployeeData/CallCentrel /EmployeeData/CallCentreC /EmployeeData/CallCentree /EmployeeData/CallCentren /EmployeeData/CallCentret /EmployeeData/CallCentrer /EmployeeData/CallCentree /EmployeeData/CallCentre
+[?2004lchgrp: cannot access '/EmployeeData/CallCentre': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R CallCentre /EmployeeData/CallCentre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgroupadd CallCentre11Centre\ Centrell[C[C[C[C[C[C[C[Cchown -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -f1 /etc/groupsudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/grouphgrp -R IT /EmployeeData/ITsudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -fi /etc/grouphgrp -R HR /EmployeeData/HR#assign each folder to it's associated department group[A]0;sakshi@sakshi-VirtualBox: ~[01;32sakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [6Pecho "Folder structure created successfully."
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo chmod -R u+rwx,g+rw,o= /EmployeeData/HR+r /EmployeeData/Executive[A]0;sakshi@sakshi-VirtualBox: ~[01;32sakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CIT[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFinance[Kata/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[K[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [23P#set permissions for folders
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Folder structure created successfully."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psudo mkdir /EmployeeData/Call\ Centre[K[K[K[K[K[K[K[KCentre
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo mkdir /EmployeeData/CallCentre[14@chgrp -R CallCentre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgroupadd CallCentre11Centre\ Centrell[C[C[C[C[C[C[C[Cchown -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -f1 /etc/groupsudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/grouphgrp -R IT /EmployeeData/ITsudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -fi /etc/grouphgrp -R HR /EmployeeData/HR#assign each folder to it's associated department group[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [6Pecho "Folder structure created successfully."
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo chmod -R u+rwx,g+rw,o= /EmployeeData/HR+r /EmployeeData/Executive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CIT[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CFinance[Kata/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[K[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [23P#set permissions for folders
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Folder structure created successfully."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psudo mkdir /EmployeeData/Call\ Centre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Folder structure created successfully."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P#set permissions for folderschmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cata/FinanceIT[KExecutive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P= /EmployeeData/HR
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Folder structure created successfully."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo chmod -R u+rwx,g+rw,o= /EmployeeData/HR+r /EmployeeData/Executive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CIT[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[KCallCent re
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chmod -R u+rwx,g+rw,o+r /EmployeeData/CallCentre[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[16Pmkdir /EmployeeData/CallCentre
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14@chgrp -R CallCentre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pgroupadd CallCentre11Centre\ Centrell[C[C[C[C[C[C[C[Cchown -R :Administrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HRgrp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAdministrative /EmployeeData/Administrative[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PExecutive /EmployeeData/Executive
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PFinance /EmployeeData/Finance[10PIT /EmployeeData/ITHR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -f1 /etc/groupsudo groupadd Call Centre\ CentreAdministrative[5PExecutive[2PFinanceIT[KHRcut -d: -f1 /etc/grouphgrp -R IT /EmployeeData/ITsudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcut -d: -fi /etc/grouphgrp -R HR /EmployeeData/HR#assign each folder to it's associated department group[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [6Pecho "Folder structure created successfully."
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo chmod -R u+rwx,g+rw,o= /EmployeeData/HR+r /EmployeeData/Executive[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P= /EmployeeData/HR
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Folder structure created successfully."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#assign each folder to it's associated department group[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [23Pchgrp -R HR /EmployeeData/HR
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Put -d: -fi /etc/groupsudo chgrp -R HR /EmployeeData/HR[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pchgrp -R IT /EmployeeData/IT[K[KCallCentre[1P /EmployeeData/CallCentre[1P /EmployeeData/CallCentreC /EmployeeData/CallCentrea /EmployeeData/CallCentrel /EmployeeData/CallCentrel /EmployeeData/CallCentreC /EmployeeData/CallCentree /EmployeeData/CallCentren /EmployeeData/CallCentret /EmployeeData/CallCentrer /EmployeeData/CallCentree /EmployeeData/CallCentre
+[?2004lchgrp: changing group of '/EmployeeData/CallCentre': Operation not permitted
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ chgrp -R CallCentre /EmployeeData/CallCentre[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo chgrp -R CallCentre /EmployeeData/CallCentre[1@:[1P[1P[1P[1@o[1@w[1@n
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ #Count the number of folders created
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ folder-[K_count=$(find /eMPLOYEED[K[K[K[K[K[K[K[K[KEmployeeData -tyop[K[Kpe d | wc -1)
+[?2004lwc: invalid option -- '1'
+Try 'wc --help' for more information.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ folder_count=$(find /EmployeeData -type d | wc -1)[C[1P)l)
+[?2004lfind: ‘/EmployeeData/HR’: Permission denied
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32mfikayo@fikayo-VirtualBox[00m:[01;34m~[00m$ folder_count=$(find /EmployeeData -type d | wc -l)sfolder_count=$(find /EmployeeData -type d | wc -l) [A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [Cufolder_count=$(find /EmployeeData -type d | wc -l)[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[Cdfolder_count=$(find /EmployeeData -type d | wc -l)[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[Cofolder_count=$(find /EmployeeData -type d | wc -l)[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C folder_count=$(find /EmployeeData -type d | wc -l)[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C
+
+[?2004lfind: ‘/EmployeeData/HR’: Permission denied
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+            group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user]
+            [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+            [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file
+            ...
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo folder_count=$(find /EmployeeData -type d | wc -l)
+[?2004lfind: ‘/EmployeeData/HR’: Permission denied
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g
+            group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user]
+            [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+            [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file
+            ...
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ #show number of folders cresa[K[Kated
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ echo "$folder-[K_count folders created successfully,"
+[?2004l8 folders created successfully,
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-02 18:40:12-04:00 [COMMAND_EXIT_CODE="0"]

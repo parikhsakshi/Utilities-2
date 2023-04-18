@@ -1,0 +1,171 @@
+Script started on 2023-04-10 19:51:46-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo install apt git
+[?2004l[sudo] password for sakshi: 
+install: cannot stat 'apt': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo install apt git[C[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C install[C[C[C[C[C[C got[C[C[C[C[1Ptit[1P[1P[1P[1P[1P[1@ 
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libreoffice-ogltrans
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 330 not upgraded.
+Need to get 4,121 kB of archives.
+After this operation, 20.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m            Get:1 http://ca.archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+[33m0% [1 liberror-perl 12.7 kB/26.5 kB 48%][0m[33m                                        7% [Working][0m            Get:2 http://ca.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.8 [953 kB]
+[33m7% [2 git-man 2,317 B/953 kB 0%][0m[33m                                32% [Waiting for headers][0m                         Get:3 http://ca.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.8 [3,141 kB]
+[33m33% [3 git 9,580 B/3,141 kB 0%][0m[33m56% [3 git 1,198 kB/3,141 kB 38%][0m[33m79% [3 git 2,396 kB/3,141 kB 76%][0m[33m                                 100% [Working][0m              Fetched 4,121 kB in 2s (2,046 kB/s)
+
+7[0;28r8[1ASelecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164896 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+7[29;0f[42m[30mProgress: [  0%][49m[39m [.........................................................] 87[29;0f[42m[30mProgress: [  8%][49m[39m [####.....................................................] 8Unpacking liberror-perl (0.17029-1) ...
+7[29;0f[42m[30mProgress: [ 15%][49m[39m [########.................................................] 8Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.34.1-1ubuntu1.8_all.deb ...
+7[29;0f[42m[30mProgress: [ 23%][49m[39m [#############............................................] 8Unpacking git-man (1:2.34.1-1ubuntu1.8) ...
+7[29;0f[42m[30mProgress: [ 31%][49m[39m [#################........................................] 8Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.8_amd64.deb ...
+7[29;0f[42m[30mProgress: [ 38%][49m[39m [#####################....................................] 8Unpacking git (1:2.34.1-1ubuntu1.8) ...
+7[29;0f[42m[30mProgress: [ 46%][49m[39m [##########################...............................] 8Setting up liberror-perl (0.17029-1) ...
+7[29;0f[42m[30mProgress: [ 54%][49m[39m [##############################...........................] 87[29;0f[42m[30mProgress: [ 62%][49m[39m [###################################......................] 8Setting up git-man (1:2.34.1-1ubuntu1.8) ...
+7[29;0f[42m[30mProgress: [ 69%][49m[39m [#######################################..................] 87[29;0f[42m[30mProgress: [ 77%][49m[39m [###########################################..............] 8Setting up git (1:2.34.1-1ubuntu1.8) ...
+7[29;0f[42m[30mProgress: [ 85%][49m[39m [################################################.........] 87[29;0f[42m[30mProgress: [ 92%][49m[39m [####################################################.....] 8Processing triggers for man-db (2.10.2-1) ...
+
+7[0;29r8[1A[J[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ ssh-keygen -t ed25519 -C F[Ksakshiduyile01@gmao[Kil.com
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/home/sakshi/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/sakshi/.ssh/id_ed25519
+Your public key has been saved in /home/sakshi/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:xvr4vKWlYDKWib51EgtQVxMNvq7iTl25cPJO1qISmms sakshiparih786@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|       ...o . ...|
+|      . .. * o o |
+|      ..o + B o .|
+|     . = * B . o |
+|      o S = o   =|
+|     o * & .  .=.|
+|    o o B o   .E.|
+|   .  .o .       |
+|    .o. .        |
++----[SHA256]-----+
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ cat ~/.ssh/id_ed25519.pub
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDEPq5BXNK517WxIlVUL4NbV1zUjsWfWWS+Lzbz0nKrv sakshiparih786@gmail.com
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [K]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ ssh -T
+[?2004lusage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ global user.email "sakshiparih786@gmail.com"
+[?2004lCommand 'global' not found, but can be installed with:
+sudo apt install global
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo apt install global
+[?2004l[sudo] password for sakshi: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libreoffice-ogltrans
+Use 'sudo apt autoremove' to remove it.
+Suggested packages:
+  lynx | www-browser doxygen id-utils exuberant-ctags python3-pygments
+The following NEW packages will be installed:
+  global
+0 upgraded, 1 newly installed, 0 to remove and 330 not upgraded.
+Need to get 512 kB of archives.
+After this operation, 1,806 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://ca.archive.ubuntu.com/ubuntu jammy/universe amd64 global amd64 6.6.7-1 [512 kB]
+[33m0% [1 global 0 B/512 kB 0%][0m[33m79% [1 global 503 kB/512 kB 98%][0m[33m                                100% [Working][0m              Fetched 512 kB in 1s (416 kB/s)
+
+7[0;28r8[1ASelecting previously unselected package global.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 165881 files and directories currently installed.)
+Preparing to unpack .../global_6.6.7-1_amd64.deb ...
+7[29;0f[42m[30mProgress: [  0%][49m[39m [.........................................................] 87[29;0f[42m[30mProgress: [ 20%][49m[39m [###########..............................................] 8Unpacking global (6.6.7-1) ...
+7[29;0f[42m[30mProgress: [ 40%][49m[39m [######################...................................] 8Setting up global (6.6.7-1) ...
+7[29;0f[42m[30mProgress: [ 60%][49m[39m [##################################.......................] 87[29;0f[42m[30mProgress: [ 80%][49m[39m [#############################################............] 8Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for install-info (6.8-4build1) ...
+
+7[0;29r8[1A[J[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ sudo apt install globalglobal user.email "sakshiparih786@gmail.com"
+[?2004lglobal: GTAGS not found.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ global user.email "sakshiparih786@gmail.com"[C[1@g[1@i[1@t[1@ [1@c[1@onglobal user.email "sakshiparih786@gmail.com" [A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[Cfglobal user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[Ciglobal user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Cglobal user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C global user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C-global user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C-global user.email "sakshiparih786@gmail.com"[A]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ git config --global user.email "sakshiparih@gmail.com"[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klobal user.email "fikayoduyile01@gmail.com"[K[1Pfikayoduyile01@gmail.com[1Pfikayoduyile01@gmail.com fikayoduyile01@gmail.com
+[?2004lglobal: GTAGS not found.
+[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ global user.email sakshiparih786@gmail.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pit config --global user.email lobal user.email "sakshiparih786@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psudo apt install globalglobal user.email "sakshiparih786@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pit config --global user.email sakshiparih786@gmail .com
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ git config --global user.email sakshiparih786@gmail.com[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Ko
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: ~[01;32msakshi@sakshi-VirtualBox[00m:[01;34m~[00m$ cd /
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ mkdir Utilities
+[?2004lmkdir: cannot create directory ‘Utilities’: Permission denied
+[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ mkdir Utilities[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ sudo chmod -R 777 /Utilities
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ git init
+[?2004l/.git: Permission denied
+[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ git init[1@s[1@u[1@d[1@o[1@ 
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /.git/
+[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ git remote add origin git@github.com:JeffMaitland/i ot1025.git
+[?2004lfatal: detected dubious ownership in repository at '/'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /
+[?2004h]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ [K]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ [K]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ [K]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ [K]0;sakshi@sakshi-VirtualBox: /[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/[00m$ cd /Utilities
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /Utilities/.git/
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ my utilities/* /UT[Ktilities/
+[?2004lmy: command not found
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ gid [K[K[K[Kmy utilities/* /Utilities/git init[Kmy utilities/* /Utilities/[1P[1@v
+[?2004lmv: cannot stat 'utilities/*': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv utilities/* /Utilities/[1P
+[?2004lmv: cannot stat 'utilities*': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv utilities* /Utilities/[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@U[C[C[C[C[C[C[C[C
+[?2004lmv: cannot stat 'Utilities/*': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/* /Utilities/[K/[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/* /Utilities/[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/* /Utilities/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@D[1@o[1@w[1@n[1@l[1@o[1@a[1@d[1@s
+[?2004lmv: cannot stat 'Downloads/*': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Downloads/* /Utilities/Utilitie[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/* /Utilities/[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/* /Utilities/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kks[K[Kls
+[?2004l[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ ls Utilities
+[?2004lls: cannot access 'Utilities': No such file or directory
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ [K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ [K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mvUtil[K[K[K[K Utilities bvggvhuioijjbvoih[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khibvhjbihjnbuijmnhj[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K mxcjnkxkxnkc nkvf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kahbvxg[K[K[K[K[K[K[Kchvx jdxndxjx[K[Ksc[Ksx[Kc[K[Kdcdc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kw[Kes dfjvn,xnkscjx[Kdd[Ksc[Kd[K[Kdd[K[Kd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K dxhbcv [K[K[K[K[K[K[K[K[Kes jfcb,xxkxsokxncck[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks/^ nrdfgk[K[K[K[K[K[K[K[K* kfvknkxckdd[K[K[K[K[K[K[K[Kd[K[K[Kf[Kv[Kd[K[Kd [Kd[Kvd[Kvvjovkckd[K[K[K[K[K[Kd[Kd[Kd[Kd[Ke[Kd[K[Kec[Kc[Kfvc[Kc[Kddcd[Kc d[Kx [Kd[Kc[Kdcx[Kvd[Kcd[Kcdjncxojun ckdc[Kxvdfcc[Kjnddnkivnindcknfucdx[Kcxvfvdsduhhnjnfudok[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdcbddhbd[K[K[K[K[K[K[K[K vuhydfbi[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kdeiubcuhcjxhnjsbceus[K[K[Kcdjnbxj[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kndc ic[K[K[K[K[K[K cijdcknkncknckxncxncxncxncx ,ncx,nkkskdsdncjd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdbjxcxidjxcxxjzsodcnd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv Utili[Kities [K/[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/[K]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ mv Utilities/
+[?2004lmv: missing destination file operand after 'Utilities/'
+Try 'mv --help' for more information.
+[?2004h]0;sakshi@sakshi-VirtualBox: /Utilities[01;32msakshi@sakshi-VirtualBox[00m:[01;34m/Utilities[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-15 21:05:18-04:00 [COMMAND_EXIT_CODE="1"]
